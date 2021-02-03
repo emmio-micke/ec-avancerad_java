@@ -40,3 +40,14 @@ public class Person {
     }
   }
 }
+
+class CarOwner extends Person {
+
+  public CarOwner(String personName, String personAddress, int personAge) {
+    super(personName, personAddress, personAge);
+  }
+
+  public String toString() {
+    return "Owner is " + this.getName() + ", " + this.getAge() + " years.";
+  }
+}
