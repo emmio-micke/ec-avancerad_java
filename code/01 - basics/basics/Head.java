@@ -1,3 +1,5 @@
+package basics;
+
 public class Head {
 
   private Eye leftEye;
