@@ -14,7 +14,10 @@ public class Head {
 
     Head head1 = new Head(firstEye, secondEye);
 
-    System.out.println(firstEye.color);
-    System.out.println(secondEye.color);
+    firstEye.color = "grey";
+
+    System.out.println(firstEye);
+    System.out.println(head1.rightEye);
+    // System.out.println(secondEye.color);
   }
 }
