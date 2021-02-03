@@ -1,3 +1,5 @@
+package image;
+
 public class Image {
 
   private int size;

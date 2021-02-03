@@ -1,3 +1,5 @@
+package car;
+
 public class Main {
 
   /*
@@ -11,7 +13,7 @@ x Lagg till kod som skapar upp nagra bilar och bilagare.
 
 x Lat bilagarna kopa och salja ett par bilar i programmet.
 
-Skriv, till sist, ut alla bilagarna samt vilka bilar de (eventuellt) ager.
+xSkriv, till sist, ut alla bilagarna samt vilka bilar de (eventuellt) ager.
 OBS - losningen ska folja Best Practices for inkapsling
 
    */
