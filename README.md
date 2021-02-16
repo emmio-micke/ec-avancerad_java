@@ -22,12 +22,12 @@ Streams
 
 ## Vecka 7 - Måndag
 
-Regular expressions
+Regular expressions  
 Serialisering
 
 ## Vecka 8 - Måndag
 
-Date and time
+Date and time  
 Avancerad objektorientering
 
 ## Vecka 9 - Måndag
@@ -40,8 +40,8 @@ Threads
 
 ## Vecka 11 - Måndag
 
-Reflection
-Annotations
+Reflection  
+Annotations  
 Design patterns
 
 ## Vecka 12 - Måndag
