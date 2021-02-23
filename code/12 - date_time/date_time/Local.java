@@ -41,40 +41,28 @@ public class Local {
         // System.out.println(dt.format(DateTimeFormatter.ofPattern("y-MM-dd
         // HH:mm:ss")));
 
-        // TimeZone tz = TimeZone.getDefault();
+        TimeZone tz = TimeZone.getDefault();
         // System.out.println(tz.getID());
 
-        /*
-         * LocalDateTime ldt = LocalDateTime.now();
-         * 
-         * ZoneId ziKolkata = ZoneId.of("Asia/Kolkata"); ZonedDateTime zdtKolkata =
-         * ZonedDateTime.of(ldt, ziKolkata);
-         * System.out.println("In India Central Time Zone: " + zdtKolkata);
-         * 
-         * ZoneId ziTokyo = ZoneId.of("Asia/Tokyo"); ZonedDateTime zdtTokyo =
-         * zdtKolkata.withZoneSameInstant(ziTokyo);
-         * System.out.println("In Tokyo Central Time Zone:" + zdtTokyo);
-         * 
-         * ZoneId ziSingapore = ZoneId.of("Asia/Singapore"); ZonedDateTime zdtSingapore
-         * = zdtKolkata.withZoneSameInstant(ziSingapore);
-         * System.out.println("In Singapore Central Time Zone:" + zdtSingapore);
-         */
+        LocalDateTime ldt = LocalDateTime.now();
+
+        ZoneId ziKolkata = ZoneId.of("Asia/Kolkata");
+        ZonedDateTime zdtKolkata = ZonedDateTime.of(ldt, ziKolkata);
+        System.out.println("In India Central Time Zone: " + zdtKolkata);
+
+        ZoneId ziTokyo = ZoneId.of("Asia/Tokyo");
+        ZonedDateTime zdtTokyo = zdtKolkata.withZoneSameInstant(ziTokyo);
+        System.out.println("In Tokyo Central Time Zone:" + zdtTokyo);
+
+        ZoneId ziSingapore = ZoneId.of("Asia/Singapore");
+        ZonedDateTime zdtSingapore = zdtKolkata.withZoneSameInstant(ziSingapore);
+        System.out.println("In Singapore Central Time Zone:" + zdtSingapore);
 
         Instant inst = Instant.now();
         System.out.println(inst);
 
-        /*
-         * ZoneId newYokZoneId = ZoneId.of("America/New_York");
-         * System.out.println("TimeZone : " + newYokZoneId);
-         * 
-         * ZonedDateTime nyDateTime =
-         * asiaZonedDateTime.withZoneSameInstant(newYokZoneId);
-         * System.out.println("Date (New York) : " + nyDateTime);
-         * 
-         * DateTimeFormatter format = DateTimeFormatter.ofPattern(DATE_FORMAT);
-         * System.out.println("\n---DateTimeFormatter---");
-         * System.out.println("Date (Singapore) : " + format.format(asiaZonedDateTime));
-         * System.out.println("Date (New York) : " + format.format(nyDateTime));
-         */
+        // Toronto - vad är klockan just nu på formatet HH:mm:ss
+        LocalTime toronto = LocalTime.now(TimeZone.getTimeZone("America/Toronto").toZoneId());
+        System.out.println("Den lokala tiden i Toronto: " + toronto);
     }
 }
