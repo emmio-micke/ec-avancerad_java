@@ -53,13 +53,17 @@ public class Local {
 
         LocalDateTime ldt = LocalDateTime.now();
 
-        ZoneId singaporeZoneId = ZoneId.of("Asia/Singapore");
-        System.out.println("TimeZone : " + singaporeZoneId);
+        ZoneId ziKolkata = ZoneId.of("Asia/Kolkata");
+        ZonedDateTime zdtKolkata = ZonedDateTime.of(ldt, ziKolkata);
+        System.out.println("In India Central Time Zone: " + zdtKolkata);
 
-        // LocalDateTime + ZoneId = ZonedDateTime
-        ZonedDateTime asiaZonedDateTime = ldt.atZone(singaporeZoneId);
-        System.out.println("Date (Singapore) : " + asiaZonedDateTime);
+        ZoneId ziTokyo = ZoneId.of("Asia/Tokyo");
+        ZonedDateTime zdtTokyo = zdtKolkata.withZoneSameInstant(ziTokyo);
+        System.out.println("In Tokyo Central Time Zone:" + zdtTokyo);
 
+        ZoneId ziSingapore = ZoneId.of("Asia/Singapore");
+        ZonedDateTime zdtSingapore = zdtKolkata.withZoneSameInstant(ziSingapore);
+        System.out.println("In Singapore Central Time Zone:" + zdtSingapore);
         /*
          * ZoneId newYokZoneId = ZoneId.of("America/New_York");
          * System.out.println("TimeZone : " + newYokZoneId);
