@@ -4,8 +4,6 @@ import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.util.TimeZone;
 
-import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
-
 public class Local {
     public static void main(String[] args) {
         LocalTime t = LocalTime.now();
@@ -47,23 +45,24 @@ public class Local {
         // System.out.println(tz.getID());
 
         /*
-         * tz.setID("America/Belize"); System.out.println(tz.getID()); dt =
-         * LocalDateTime.now(); System.out.println(dt);
+         * LocalDateTime ldt = LocalDateTime.now();
+         * 
+         * ZoneId ziKolkata = ZoneId.of("Asia/Kolkata"); ZonedDateTime zdtKolkata =
+         * ZonedDateTime.of(ldt, ziKolkata);
+         * System.out.println("In India Central Time Zone: " + zdtKolkata);
+         * 
+         * ZoneId ziTokyo = ZoneId.of("Asia/Tokyo"); ZonedDateTime zdtTokyo =
+         * zdtKolkata.withZoneSameInstant(ziTokyo);
+         * System.out.println("In Tokyo Central Time Zone:" + zdtTokyo);
+         * 
+         * ZoneId ziSingapore = ZoneId.of("Asia/Singapore"); ZonedDateTime zdtSingapore
+         * = zdtKolkata.withZoneSameInstant(ziSingapore);
+         * System.out.println("In Singapore Central Time Zone:" + zdtSingapore);
          */
 
-        LocalDateTime ldt = LocalDateTime.now();
+        Instant inst = Instant.now();
+        System.out.println(inst);
 
-        ZoneId ziKolkata = ZoneId.of("Asia/Kolkata");
-        ZonedDateTime zdtKolkata = ZonedDateTime.of(ldt, ziKolkata);
-        System.out.println("In India Central Time Zone: " + zdtKolkata);
-
-        ZoneId ziTokyo = ZoneId.of("Asia/Tokyo");
-        ZonedDateTime zdtTokyo = zdtKolkata.withZoneSameInstant(ziTokyo);
-        System.out.println("In Tokyo Central Time Zone:" + zdtTokyo);
-
-        ZoneId ziSingapore = ZoneId.of("Asia/Singapore");
-        ZonedDateTime zdtSingapore = zdtKolkata.withZoneSameInstant(ziSingapore);
-        System.out.println("In Singapore Central Time Zone:" + zdtSingapore);
         /*
          * ZoneId newYokZoneId = ZoneId.of("America/New_York");
          * System.out.println("TimeZone : " + newYokZoneId);
