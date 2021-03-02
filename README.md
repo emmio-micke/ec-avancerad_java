@@ -20,35 +20,35 @@ Lambdauttryck
 
 Streams
 
-## Vecka 7 - Måndag
+## Vecka 7 - Tisdag
 
 Regular expressions  
 Serialisering
 
-## Vecka 8 - Måndag
+## Vecka 8 - Tisdag
 
 Date and time  
 Avancerad objektorientering
 
-## Vecka 9 - Måndag
+## Vecka 9 - Tisdag
 
 Avancerad objektorientering
 
-## Vecka 10 - Måndag
+## Vecka 10 - Tisdag
 
 Threads
 
-## Vecka 11 - Måndag
+## Vecka 11 - Tisdag
 
 Reflection  
 Annotations  
 Design patterns
 
-## Vecka 12 - Måndag
+## Vecka 12 - Tisdag
 
 Design patterns
 
-## Vecka 13 - Måndag
+## Vecka 13 - Tisdag
 
 Redovisning
 
