@@ -1,6 +1,10 @@
 class Super_class {
     int num = 20;
 
+    public Super_class(String x) {
+
+    }
+
     // display method of superclass
     public void display() {
         System.out.println("This is the display method of superclass");
@@ -9,6 +13,10 @@ class Super_class {
 
 public class Sub_class extends Super_class {
     int num = 10;
+
+    public Sub_class(String x, String y) {
+        super(x);
+    }
 
     // display method of sub class
     public void display() {

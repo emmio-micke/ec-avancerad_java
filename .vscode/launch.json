@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TestDog",
+            "request": "launch",
+            "mainClass": "override.TestDog",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestDog",
+            "request": "launch",
+            "mainClass": "TestDog",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
             "name": "Launch ListTest",
             "request": "launch",
             "mainClass": "ListTest",
