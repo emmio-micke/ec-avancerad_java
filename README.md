@@ -27,8 +27,7 @@ Serialisering
 
 ## Vecka 8 - Tisdag
 
-Date and time  
-Avancerad objektorientering
+Date and time
 
 ## Vecka 9 - Tisdag
 
