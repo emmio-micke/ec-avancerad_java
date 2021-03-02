@@ -1,3 +1,5 @@
+package interface1;
+
 public class MammalInt implements Animal {
 
     public void eat() {

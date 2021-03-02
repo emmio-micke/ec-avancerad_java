@@ -1,3 +1,5 @@
+package extending_interface;
+
 public interface Sports {
     public void setHomeTeam(String name);
 

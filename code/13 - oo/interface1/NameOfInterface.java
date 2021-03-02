@@ -1,3 +1,5 @@
+package interface1;
+
 import java.lang.*;
 // Any number of import statements
 

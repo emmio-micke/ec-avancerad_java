@@ -1,3 +1,5 @@
+package polymorphism;
+
 public class Salary extends Employee {
     private double salary; // Annual salary
 

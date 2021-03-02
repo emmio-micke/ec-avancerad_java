@@ -44,11 +44,7 @@ Reflection
 Annotations  
 Design patterns
 
-## Vecka 12 - Tisdag
-
-Design patterns
-
-## Vecka 13 - Tisdag
+## Vecka 13 - Måndag
 
 Redovisning
 

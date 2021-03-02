@@ -1,3 +1,5 @@
+package interface1;
+
 interface Animal {
     public void eat();
 

@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MammalInt",
+            "request": "launch",
+            "mainClass": "interface1.MammalInt",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunEncap",
+            "request": "launch",
+            "mainClass": "encapsulation.RunEncap",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch AbstractDemo",
+            "request": "launch",
+            "mainClass": "abstract2.AbstractDemo",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch AbstractDemo",
+            "request": "launch",
+            "mainClass": "abstract1.AbstractDemo",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch VirtualDemo",
+            "request": "launch",
+            "mainClass": "polymorphism.VirtualDemo",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
             "name": "Launch TestDog",
             "request": "launch",
             "mainClass": "override.TestDog",

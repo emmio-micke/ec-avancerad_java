@@ -1,3 +1,5 @@
+package extending_interface;
+
 public interface Football extends Sports {
     public void homeTeamScored(int points);
 

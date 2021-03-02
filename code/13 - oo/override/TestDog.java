@@ -8,11 +8,20 @@ class Animal {
     public void move(String name) {
         System.out.println("Animals can move: " + name);
     }
+
+    public void bark() {
+        System.out.println("Animals can't bark in general");
+    }
 }
 
 class Dog extends Animal {
     public void move() {
         System.out.println("Dogs can walk and run");
+    }
+
+    public void bark() {
+        super.bark();
+        System.out.println("Dogs can bark");
     }
 }
 
@@ -30,5 +39,6 @@ public class TestDog {
 
         a.move(); // runs the method in Animal class
         b.move("Fido"); // runs the method in Dog class
+        b.bark();
     }
 }

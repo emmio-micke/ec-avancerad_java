@@ -1,3 +1,5 @@
+package encapsulation;
+
 public class EncapTest {
     private String name;
     private String idNum;

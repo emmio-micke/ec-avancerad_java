@@ -1,3 +1,5 @@
+package extending_interface;
+
 public interface Hockey extends Sports {
     public void homeGoalScored();
 
