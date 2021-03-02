@@ -1,0 +1,15 @@
+File IntList.java contains code for an integer list class. Save it to your directory and study it; notice that the only things you can do are create a list of a fixed size and add an element to a list. If the list is already full, a message will be printed. File ListTest.java contains code for a class that creates an IntList, puts some values in it, and prints it. Save this to your directory and compile and run it to see how it works. 
+
+Now write a class SortedIntList that extends IntList. SortedIntList should be just like IntList except that its elements should
+always be in sorted order from smallest to largest. This means that when an element is inserted into a SortedIntList it should
+be put into its sorted place, not just at the end of the array. To do this you’ll need to do two things when you add a new
+element:
+
+• Walk down the array until you find the place where the new element should go. Since the list is already sorted you can just keep looking at elements until you find one that is at least as big as the one to be inserted.
+• Move down every element that will go after the new element, that is, everything from the one you stop on to the end. This creates a slot in which you can put the new element. Be careful about the order in which you move them or you’ll overwrite your data! 
+
+Now you can insert the new element in the location you originally stopped on.
+
+All of this will go into your add method, which will override the add method for the IntList class. (Be sure to also check to see if you need to expand the array, just as in the IntList add method.) What other methods, if any, do you need to override?
+
+To test your class, modify ListTest.java so that after it creates and prints the IntList, it creates and prints a SortedIntList containing the same elements (inserted in the same order). When the list is printed, they should come out in sorted order.

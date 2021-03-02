@@ -1,0 +1,9 @@
+File Player.java contains a class that holds information about an athlete: name, team, and uniform number. File ComparePlayers.java contains a skeletal program that uses the Player class to read in information about two baseball players and determine whether or not they are the same player.
+
+1. Fill in the missing code in ComparePlayers so that it reads in two players and prints "Same player" if they are the same, "Different players" if they are different. Use the equals method, which Player inherits from the Object class, to determine whether two players are the same. Are the results what you expect? 
+
+2. The problem above is that as defined in the Object class, equals does an address comparison. It says that two objects are the same if they live at the same memory location, that is, if the variables that hold references to them are aliases. The two Player objects in this program are not aliases, so even if they contain exactly the same information they will be "not equal." To make equals compare the actual information in the object, you can override it with a definition specific to the class. It might make sense to say that two players are "equal" (the same player) if they are on the same team and have the same uniform number.
+
+ - Use this strategy to define an equals method for the Player class. Your method should take a Player object and return true if it is equal to the current object, false otherwise.
+ - Test your ComparePlayers program using your modified Player class. It should give the results you would expect.
+

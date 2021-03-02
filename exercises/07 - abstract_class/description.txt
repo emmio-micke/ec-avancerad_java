@@ -1,0 +1,35 @@
+In this exercise you will use inheritance to read, store, and print questions for a test. First, write an abstract class TestQuestion that contains the following:
+
+A protected String variable that holds the test question.
+An abstract method protected abstract void readQuestion() to read the question.
+
+Now define two subclasses of TestQuestion, Essay and MultChoice. Essay will need an instance variable to store the number of blank lines needed after the question (answering space). MultChoice will not need this variable, but it will need an array of Strings to hold the choices along with the main question. Assume that the input is provided from the standard input as follows, with each item on its own line:
+
+type of question (character, m=multiple choice, e=essay)
+number of blank lines for essay, number of blank lines for multiple choice (integer)
+choice 1 (multiple choice only)
+choice 2 (multiple choice only)
+
+The very first item of input, before any questions, is an integer indicating how many questions will be entered. So the following input represents three questions: an essay question requiring 5 blank lines, a multiple choice question with 4 choices, and another essay question requiring 10 blank lines:
+
+3
+e
+5
+Why does the constructor of a derived class have to call the constructor
+of its parent class?
+m
+4
+Which of the following is not a legal identifier in Java?
+guess2
+2ndGuess
+_guess2_
+Guess
+e
+5
+What does the “final” modifier do?
+
+You will need to write readQuestion methods for the MultChoice and Essay classes that read information in this format. (Presumably the character that identifies what kind of question it is will be read by a driver.) You will also need to write toString methods for the MultChoice and Essay classes that return nicely formatted versions of the questions (e.g., the choices should be lined up, labeled a), b), etc, and indented in MultChioce).
+
+Now define a class WriteTest that creates an array of TestQuestion objects. It should read the questions from the standard input as follows in the format above, first reading an integer that indicates how many questions are coming. It should create a MultChoice object for each multiple choice question and an Essay object for each essay question and store each object in the array. (Since it's an array of TestQuestion and both Essay and MultChoice are subclasses of TestQuestion, objects of both types can be stored in the array.) When all of the data has been read, it should use a loop to print the questions, numbered, in order. 
+
+Use the data in testbank.dat to test your program.

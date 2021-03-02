@@ -1,0 +1,140 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ListTest",
+            "request": "launch",
+            "mainClass": "ListTest",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch DogTest",
+            "request": "launch",
+            "mainClass": "DogTest",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Subclass",
+            "request": "launch",
+            "mainClass": "Subclass",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sub_class",
+            "request": "launch",
+            "mainClass": "Sub_class",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch My_Calculation",
+            "request": "launch",
+            "mainClass": "My_Calculation",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Interval",
+            "request": "launch",
+            "mainClass": "date_time.Interval",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Local",
+            "request": "launch",
+            "mainClass": "date_time.Local",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Depersist",
+            "request": "launch",
+            "mainClass": "serialize.Depersist",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Persist",
+            "request": "launch",
+            "mainClass": "serialize.Persist",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Persist",
+            "request": "launch",
+            "mainClass": "Persist",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch GuessNumber",
+            "request": "launch",
+            "mainClass": "GuessNumber",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch RegexExample",
+            "request": "launch",
+            "mainClass": "regex.RegexExample",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch RegexExample",
+            "request": "launch",
+            "mainClass": "RegexExample",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch HandleFile",
+            "request": "launch",
+            "mainClass": "person.HandleFile",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Person",
+            "request": "launch",
+            "mainClass": "person.Person",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Person",
+            "request": "launch",
+            "mainClass": "Person",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Temperature",
+            "request": "launch",
+            "mainClass": "temp.Temperature",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "name": "Listen for XDebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9000,
+            "pathMappings": {
+                "/app": "${workspaceRoot}/app"
+            }
+        },
+        {
+            "name": "Launch currently open script",
+            "type": "php",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "port": 9000
+        }
+    ]
+}

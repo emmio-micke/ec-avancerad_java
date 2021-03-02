@@ -1,0 +1,25 @@
+Here’s a basic setup of classes and an interface for vehicles. Use this to answer the following question about interfaces.
+
+1. What methods do you need to add to each of Car and Bicycle to get this code fragment to compile (setting aside the missing constructors)?
+
+2. Does having a class implement an interface change how you write its constructor?
+
+3. Should builtBefore be added to the IVehicle interface? Why or why not?
+
+4. In the Examples class, you want to define a Bicycle as follows:
+
+  ___________ newKidsBike = new Bicycle(0, 1);
+
+Which types can you use in the blank line (without causing a compile error just with this single line)?
+
+5. Assume you defined a Car object as follows:
+
+  IVehicle oldCar = new Car(200000, 1995, 2);
+
+Which methods can you call on oldCar, given the type that you gave it?
+
+6. Assume you defined a Car object as follows:
+
+  Car oldCar = new Car(200000, 1995, 2);
+
+Which methods can you call on oldCar, given the type that you gave it?
