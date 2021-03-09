@@ -14,7 +14,7 @@ public class Producer extends Thread {
             for (int j = 0; j < 10; j++) {
                 cubbyhole.put(i, j);
 
-                System.out.println("Producer #" + this.id + " put: (" + i + ", " + j + ")");
+                // System.out.println("Producer #" + this.id + " put: (" + i + ", " + j + ")");
 
                 try {
                     sleep((int) (Math.random() * 100));

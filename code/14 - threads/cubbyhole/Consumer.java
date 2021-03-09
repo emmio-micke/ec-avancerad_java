@@ -14,7 +14,7 @@ public class Consumer extends Thread {
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
                 value = cubbyhole.get();
-                System.out.println("Consumer #" + this.id + " get: " + value);
+                // System.out.println("Consumer #" + this.id + " get: " + value);
             }
         }
     }

@@ -16,6 +16,7 @@ public class CubbyHole {
 
         available = false;
         notifyAll();
+        System.out.println("get: " + (x + y));
         return x + y;
     }
 
@@ -34,6 +35,8 @@ public class CubbyHole {
 
         available = true;
         notifyAll();
+
+        System.out.println("put: " + i + ", " + j);
     }
 }
 
