@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ProducerConsumerTest",
+            "request": "launch",
+            "mainClass": "cubbyhole.ProducerConsumerTest",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoThreadsTest",
+            "request": "launch",
+            "mainClass": "simple_thread.TwoThreadsTest",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
             "name": "Launch MammalInt",
             "request": "launch",
             "mainClass": "interface1.MammalInt",
