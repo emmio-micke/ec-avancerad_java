@@ -2,6 +2,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "car.Main",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "simple.Demo",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch DumpMethods",
+            "request": "launch",
+            "mainClass": "simple.DumpMethods",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch DumpMethods",
+            "request": "launch",
+            "mainClass": "DumpMethods",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
             "name": "Launch ProducerConsumerTest",
             "request": "launch",
             "mainClass": "cubbyhole.ProducerConsumerTest",

@@ -3,19 +3,22 @@ package car;
 public class Main {
 
   /*
-x Konstruera en klass Person. En person ska ha ett namn, adress och alder. Utforma en konstruktor och nagra lampliga metoder for Person.
-
-x Konstruera en klass Bilagare som arver Person.
-
-x Konstruera en klass Bil med registreringsnummer, modell och marke. En bil ska ha en Bilagare. Konstruera metoder som anropas nar man koper eller saljer en bil (alltsa byter bilagare).
-
-x Lagg till kod som skapar upp nagra bilar och bilagare.
-
-x Lat bilagarna kopa och salja ett par bilar i programmet.
-
-xSkriv, till sist, ut alla bilagarna samt vilka bilar de (eventuellt) ager.
-OBS - losningen ska folja Best Practices for inkapsling
-
+   * x Konstruera en klass Person. En person ska ha ett namn, adress och alder.
+   * Utforma en konstruktor och nagra lampliga metoder for Person.
+   * 
+   * x Konstruera en klass Bilagare som arver Person.
+   * 
+   * x Konstruera en klass Bil med registreringsnummer, modell och marke. En bil
+   * ska ha en Bilagare. Konstruera metoder som anropas nar man koper eller saljer
+   * en bil (alltsa byter bilagare).
+   * 
+   * x Lagg till kod som skapar upp nagra bilar och bilagare.
+   * 
+   * x Lat bilagarna kopa och salja ett par bilar i programmet.
+   * 
+   * xSkriv, till sist, ut alla bilagarna samt vilka bilar de (eventuellt) ager.
+   * OBS - losningen ska folja Best Practices for inkapsling
+   * 
    */
 
   public static void main(String[] args) {
