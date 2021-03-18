@@ -1,0 +1,49 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Sub_class",
+            "request": "launch",
+            "mainClass": "inheritance.Sub_class",
+            "projectName": "code_ac6f073e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Depersist",
+            "request": "launch",
+            "mainClass": "serialize.Depersist",
+            "projectName": "code_ac6f073e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Persist",
+            "request": "launch",
+            "mainClass": "serialize.Persist",
+            "projectName": "code_ac6f073e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Head",
+            "request": "launch",
+            "mainClass": "basics.Head",
+            "projectName": "code_ac6f073e"
+        },
+        {
+            "name": "Listen for XDebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9000,
+            "pathMappings": {
+                "/app": "${workspaceRoot}/app"
+            }
+        },
+        {
+            "name": "Launch currently open script",
+            "type": "php",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "port": 9000
+        }
+    ]
+}

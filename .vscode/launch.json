@@ -2,6 +2,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "machine.Test",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch My_Calculation",
+            "request": "launch",
+            "mainClass": "inheritance.My_Calculation",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sub_class",
+            "request": "launch",
+            "mainClass": "inheritance.Sub_class",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Subclass",
+            "request": "launch",
+            "mainClass": "inheritance.Subclass",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch GuessNumber",
+            "request": "launch",
+            "mainClass": "guess.GuessNumber",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaStreams",
+            "request": "launch",
+            "mainClass": "streams.JavaStreams",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Iterator",
+            "request": "launch",
+            "mainClass": "iterator.Iterator",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "processor.App",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Palindrome",
+            "request": "launch",
+            "mainClass": "palindrome.Palindrome",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "head.Main",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Image",
+            "request": "launch",
+            "mainClass": "image.Image",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Image",
+            "request": "launch",
+            "mainClass": "Image",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Head",
+            "request": "launch",
+            "mainClass": "basics.Head",
+            "projectName": "ec-avancerad_java_9e379a1e"
+        },
+        {
+            "type": "java",
             "name": "Launch Demo",
             "request": "launch",
             "mainClass": "person.Demo",
