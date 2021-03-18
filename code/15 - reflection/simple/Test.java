@@ -53,8 +53,9 @@ class Demo {
         Method[] methods = cls.getMethods();
 
         // Printing method names
-        for (Method method : methods)
+        for (Method method : methods) {
             System.out.println(method.getName());
+        }
 
         // creates object of desired method by providing the
         // method name and parameter class as arguments to
